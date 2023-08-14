@@ -16,7 +16,7 @@
 
 body {
     font-size: 100%;
-    background: #101728;
+    background: linear-gradient(to right, #0F141E 40%, #233154);
     padding: 0 100px;
 }
 
@@ -64,6 +64,29 @@ header, .conteudo-slogan, .conteudo-autismo1, footer {
 .cabecalho-menu-item:hover::after{
     width: 30px;
 
+}
+
+.conteudo-slogan{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.conteudo-slogan-escrito {
+    display: flex;
+    flex-direction: column;
+    gap: 50spx;
+}
+
+/*ver o espacamento entre as palavras pq ta mais doq no prototipo*/
+.conteudo-slogan-escrito-titulo {
+    font-size: 64px;
+    margin-left: 100px;
+}
+
+.conteudo-slogan-escrito-paragrafo {
+    font-size: 25px;
 }
 
 .mt-1 {
