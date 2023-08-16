@@ -76,13 +76,35 @@ header, .conteudo-slogan, .conteudo-autismo1, footer {
 .conteudo-slogan-escrito {
     display: flex;
     flex-direction: column;
-    gap: 50spx;
+    gap: 30px;
 }
 
-/*ver o espacamento entre as palavras pq ta mais doq no prototipo*/
+.conteudo-slogan-escrito-paragrafo1, .conteudo-slogan-escrito-paragrafo2 {
+    text-align: justify;
+    margin-left: 100px;
+    font-size: 22px;
+    margin-right: 120px;
+    }
+
+.conteudo-slogan-escrito-paragrafo2 {
+    margin-bottom: 200px;
+}
+
 .conteudo-slogan-escrito-titulo {
     font-size: 64px;
     margin-left: 100px;
+    text-align: left;
+    margin-top: 100px;
+}
+
+.conteudo-slogan-imagem {
+    max-width:800px;
+    max-height:550px;
+    width: auto;
+    height: auto;
+    margin-right: 100px;
+    margin-top: -50px;
+    margin-bottom: 30px;
 }
 
 .conteudo-slogan-escrito-paragrafo {
